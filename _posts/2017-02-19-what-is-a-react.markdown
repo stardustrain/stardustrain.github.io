@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [React 01] React를 가볍게 알아보기
+title: React 01) React를 가볍게 알아보기
 date: 2018-02-19 14:00:00 +0900
 description: # Add post description (optional)
 img: react01/react-background.png # Add image post (optional)
