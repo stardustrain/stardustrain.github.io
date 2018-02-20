@@ -89,17 +89,11 @@ Flux 패턴에서 모든 데이터는 중앙의 Dispatcher를 통해 흐르게 �
 
 ---
 #### 참고 링크
-> https://reactjs.org/
-
-> https://velopert.com/775
-
-> http://webframeworks.kr/getstarted/reactjs/
-
-> http://d2.naver.com/helloworld/59361
-
-> https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction?hl=ko
-
-> https://velopert.com/3236
-
+> https://reactjs.org/  
+> https://velopert.com/775  
+> http://webframeworks.kr/getstarted/reactjs/  
+> http://d2.naver.com/helloworld/59361  
+> https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction?hl=ko  
+> https://velopert.com/3236  
 > https://haruair.github.io/flux/docs/overview.html
 ---
