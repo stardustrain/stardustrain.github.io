@@ -9,7 +9,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Lucas Han # add your name
 author-img: lucas.png # add your photo
-about-author: 프론트엔드 개발을 하게 될 줄 몰랐던 프론트엔드 개발자. # add description
+about-author: 프론트엔드 개발을 하게 될 줄 몰랐던 프론트엔드 개발자의 Log. # add description
 twitter: # add your Twitter handle
 facebook: # add your Facebook handle
 github: stardustrain # add your Github handle
