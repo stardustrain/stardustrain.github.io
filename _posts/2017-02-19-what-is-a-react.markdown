@@ -7,6 +7,7 @@ img: react01/react-background.png # Add image post (optional)
 tags: [frontend, React] # add tag
 ---
 
+
 > React로 무언가를 만들어 보기에 앞서, React란 무엇인가 간단히 알아보고 *제가 생각하는* 중요한 개념을 알아보겠습니다.
 
 ## 1. What is a React?
