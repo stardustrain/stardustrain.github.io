@@ -108,7 +108,7 @@ npm run start
 
 directory scaffolding에 대한 설명은 다음 시간으로 미루고 일단은 `App.js`를 선택하여 App class가 선언된 부분을 다음과 같이 고쳐봅니다.
 
-```javascript
+```
 class App extends Component {
   render() {
     return (
@@ -164,7 +164,7 @@ Component에 대해 예시를들어 설명을 해 드렸습니다. 이해가 가
 
 자, 방금전 수정했던 App.js파일을 다시 보실까요? 그리고 다음과 같이 수정해 주세요(딱 봐도 굉장히 _code smell_ 이 물씬 풍기는 코드지만, 간단한 예시일 뿐이니 걱정 안하셔도 됩니다). 아무 기능도 없지만, Component를 나누어 보기 위함입니다.
 
-```javascript
+```
 class App extends Component {
   render() {
     return (
@@ -195,7 +195,7 @@ class App extends Component {
 
 화면을 보시자마자 어떻게 Component를 나눠야 좋을지 각자 생각이 드셨을거라 생각합니다. 저라면 TodoList라는 큰 제목은 놔두고, 입력 하는 부분과 할 일의 목록들을 나누어 줄 것 같습니다(여러분의 생각은 어떤가요?). 이제 각 3개의 파일을 App.js와 **같은 경로**에 생성하셔서 다음과 같이 작성해 보세요.
 
-```javascript
+```
 // ./TodoInput.js
 import React, { Component } from 'react'
 
@@ -260,7 +260,7 @@ export default TodoList
 
 다 작성하셨으면, App.js를 다음과 같이 수정해 주세요.
 
-```javascript
+```
 import React, { Component } from 'react';
 
 import TodoList from './TodoList'
