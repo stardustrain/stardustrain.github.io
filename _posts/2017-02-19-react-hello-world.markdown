@@ -132,4 +132,4 @@ React의 뿌리는 바로 `Component`라는 개념 입니다. Component의 사�
 
 우리에게 익숙한 화면입니다. 그렇다면 이 화면을 구성하고 있는 Component는 얼마나 될까요?
 
-!["components-header"](../assets/img/react02/components.png)
+![components-header](../assets/img/react02/components.png)
