@@ -1,0 +1,6 @@
+img[alt="components-header"] {
+  object-fit: none;
+  object-position: 0 0;
+  width: 100px;
+  height: 100px;
+}

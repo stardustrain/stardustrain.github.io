@@ -42,7 +42,7 @@ React를 개발하기 위해서는 먼저 `node.js`와 `npm`을 설치해야 합
 
 자, 이 설명을 다 읽으셨으면 설치가 다 되셨을 겁니다. 그렇다면 terminal을 열고 다음 명령어를 실행하여 설치가 무사히 끝났는지 확인합니다.
 
-```terminal
+```bash
 node -v
 npm -v
 ```
@@ -72,7 +72,7 @@ javascript application의 규모가 커지면서 유지보수의 필요성에 �
 
 망설일 이유가 없습니다. 다음 명령어로 CRA를 설치하도록 합니다.
 
-```
+```bash
 npm install -g create-react-app
 ```
 
@@ -86,13 +86,13 @@ npm install -g create-react-app
 
 먼저 `create-react-app` command를 통해 프로젝트를 생성해 봅니다. 프로젝트의 이름은 my-blog입니다.
 
-```
+```bash
 create-react-app my-blog
 ```
 
 성공적으로 생성이 되었다면
 
-```
+```bash
 npm run start
 ```
 
@@ -120,8 +120,16 @@ class App extends Component {
 }
 ```
 
-그리고 저장을 해 보면 hot-reloader에 의해 자동으로 화면이 바뀌게 됩니다. 화면에 **Hello React!** 가 보이시나요? 축하합니다! 드디어 React의 멋진 세계에 발을 내딛게 되셨습니다. 이제 React의 Component와 중요한 개념을 설명하고 이번 포스트를 마치고자 합니다.
+그리고 저장을 해 보면 react-hot-loader에 의해 자동으로 화면이 바뀌게 됩니다. 화면에 **Hello React!** 가 보이시나요? 축하합니다! 드디어 React의 멋진 세계에 발을 내딛게 되셨습니다. 이제 React의 Component와 중요한 개념을 설명하고 이번 포스트를 마치고자 합니다.
 
 ## 3. Component?
 
+React의 뿌리는 바로 `Component`라는 개념 입니다. Component의 사전적인 의미는 **구성 요소**입니다.
 
+글 만으로는 와닿지 않으니 다음 이미지를 통해 예시를 들어보겠습니다.
+
+![image](../assets/img/react02/components.png)
+
+우리에게 익숙한 화면입니다. 그렇다면 이 화면을 구성하고 있는 Component는 얼마나 될까요?
+
+!["components-header"](../assets/img/react02/components.png)
