@@ -1,6 +1,41 @@
 img[alt="components-header"] {
   object-fit: none;
   object-position: 0 0;
-  width: 100px;
-  height: 100px;
+  width: 930px;
+  height: 30px;
+}
+
+img[alt="components-header-input"] {
+  object-fit: none;
+  object-position: -180px 0;
+  width: 530px;
+  height: 30px;
+}
+
+img[alt="components-header-menu"] {
+  object-fit: none;
+  object-position: 0 0;
+  width: 130px;
+  height: 30px;
+}
+
+img[alt="components-header-functions"] {
+  object-fit: none;
+  object-position: -750px 0;
+  width: 130px;
+  height: 30px;
+}
+
+img[alt="components-header-user"] {
+  object-fit: none;
+  object-position: -880px 0;
+  width: 50px;
+  height: 30px;
+}
+
+img[alt="components-body"] {
+  object-fit: none;
+  object-position: 0 -60px;
+  width: 930px;
+  height: 540px;
 }
