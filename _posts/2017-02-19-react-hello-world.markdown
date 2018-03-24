@@ -105,7 +105,7 @@ npm run start
 
 프로젝트 root에서 open을 선택하셨다면, 다음과 같은 directory scaffolding을 확인할 수 있습니다.
 
-![image](../assets/img/react02/react-scaffolding.png =200x372)
+![image](../assets/img/react02/react-scaffolding.png){ : width="200px" height="372px" }
 
 directory scaffolding에 대한 설명은 다음 시간으로 미루고 일단은 `App.js`를 선택하여 App class가 선언된 부분을 다음과 같이 고쳐봅니다.
 
@@ -122,5 +122,7 @@ class App extends Component {
 ```
 
 그리고 저장을 해 보면 hot-reloader에 의해 자동으로 화면이 바뀌게 됩니다. 화면에 **Hello React!** 가 보이시나요? 축하합니다! 드디어 React의 멋진 세계에 발을 내딛게 되셨습니다. 이제 React의 Component와 중요한 개념을 설명하고 이번 포스트를 마치고자 합니다.
+
+## 3. Component?
 
 
