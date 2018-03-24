@@ -98,14 +98,13 @@ npm run start
 
 명령어를 통해 화면이 정상적으로 보이는지 확인합니다.
 
-![image](../assets/img/react02/project-init-success.png
- =350x184)
+![image](../assets/img/react02/project-init-success.png)
 
 확인하셨다면, 아까 설명드렸던 text editor로 해당 프로젝트를 open해 보도록 합니다.
 
 프로젝트 root에서 open을 선택하셨다면, 다음과 같은 directory scaffolding을 확인할 수 있습니다.
 
-![image](../assets/img/react02/react-scaffolding.png ="200x")
+![image](../assets/img/react02/react-scaffolding.png)
 
 directory scaffolding에 대한 설명은 다음 시간으로 미루고 일단은 `App.js`를 선택하여 App class가 선언된 부분을 다음과 같이 고쳐봅니다.
 
