@@ -12,6 +12,8 @@ tags: [frontend, React] # add tag
 
 ## 1. 개발환경 설정
 
+
+- ### 1. node.js + npm
 React를 개발하기 위해서는 먼저 `node.js`와 `npm`을 설치해야 합니다.
 
 [node.js 설치 방법](https://nodejs.org/en/download/)
@@ -49,14 +51,14 @@ npm -v
 
 ![image](../assets/img/react02/check-install-node.gif)
 
-## 2. 나에게 맞는 Text editor 설치
+- ### 2. 나에게 맞는 Text editor 설치
 
 IDE는 취향이지만 (저는 취존러입니다) 보통의 경우 IDE가 아닌, 아래 두 가지 `Text editor`중 하나를 설치하는 것을 추천드립니다.
 
   - [VS Code](https://code.visualstudio.com/)
   - [Atom](https://atom.io/)
 
-## 3. create-react-app 설치
+- ### 3. create-react-app 설치
 
 사실, React를 개발하기 위해서는 알아야 할 것들이 많습니다. 그 중 하나가 정말 필수적으로 알아야 할 [webpack](https://webpack.js.org/)이라는 module bundler 입니다.
 
@@ -80,7 +82,7 @@ npm install -g create-react-app
 
 자! 이제 본격적으로 React app을 개발하러 출발하도록 할까요? 갈길이 아직 많이 남았습니다!
 
-## 4. Hello React!
+## 2. Hello React!
 
 먼저 `create-react-app` command를 통해 프로젝트를 생성해 봅니다. 프로젝트의 이름은 my-blog입니다.
 
@@ -97,13 +99,13 @@ npm run start
 명령어를 통해 화면이 정상적으로 보이는지 확인합니다.
 
 ![image](../assets/img/react02/project-init-success.png
-)
+ =350x184)
 
 확인하셨다면, 아까 설명드렸던 text editor로 해당 프로젝트를 open해 보도록 합니다.
 
 프로젝트 root에서 open을 선택하셨다면, 다음과 같은 directory scaffolding을 확인할 수 있습니다.
 
-![image](../assets/img/react02/react-scaffolding.png)
+![image](../assets/img/react02/react-scaffolding.png =200x372)
 
 directory scaffolding에 대한 설명은 다음 시간으로 미루고 일단은 `App.js`를 선택하여 App class가 선언된 부분을 다음과 같이 고쳐봅니다.
 
@@ -119,4 +121,6 @@ class App extends Component {
 }
 ```
 
-그리고 저장을 해 보면 hot-reloader에 의해 자동으로 화면이 바뀌게 됩니다. 화면에 **Hello React!** 가 보이시나요? 축하합니다! 드디어 React의 멋진 세계에 발을 내딛게 되셨습니다.
+그리고 저장을 해 보면 hot-reloader에 의해 자동으로 화면이 바뀌게 됩니다. 화면에 **Hello React!** 가 보이시나요? 축하합니다! 드디어 React의 멋진 세계에 발을 내딛게 되셨습니다. 이제 React의 Component와 중요한 개념을 설명하고 이번 포스트를 마치고자 합니다.
+
+
