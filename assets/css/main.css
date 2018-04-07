@@ -1443,3 +1443,7 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
+
+.placement-bottom {
+  display: none !important;
+}
