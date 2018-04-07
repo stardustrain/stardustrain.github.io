@@ -443,7 +443,8 @@ export default TodoList
 ```
 정말 간단한 변화입니다. 우리는 state에 있는 todoItems에 push()함수를 통해서 입력된 item을 직접 넣어보았지만, 아무리 입력 버튼을 클릭해도 화면이 변하지 않습니다. 심지어 console.log()도 최초 Component가 그려졌을 시에만 호출이 되고, 그후로는 호출되지 않습니다.  
 ![image](../assets/img/react03/not-immutable.gif)
-바로 Component가 todoItems의 참조값이 변하지 않았다고 판단했기 때문에 TodoList의 render()함수가 재 호출되지 않는 것 입니다.  
+
+네, 모두들 예상하셨겠지만 반전은 없습니다. Component가 todoItems의 참조값이 변하지 않았다고 판단했기 때문에 TodoList의 render()함수가 재 호출되지 않는 것 입니다.  
 
 그렇기때문에, 우리는 State와 Props의 값을 `Immutable하게 관리`해야 합니다. Immutable이란 `불변의`라는 뜻으로, 객체 내부의 값이 변하지 않는 것을 의미합니다. 이는 다른말로 해석하자면, 객체 내부의 값이 바뀌었다면 **`반드시 새 객체로 생성`** 해야 한다는 것을 의미합니다. 그렇기 때문에 State를 안전하게 바꿔주기 위해서 React에서는 반드시 `setState()`를 사용할 것을 권고하고 있습니다.  
 
