@@ -493,5 +493,5 @@ c === d
 > https://blog.coderifleman.com/2015/06/24/learning-react-2/  
 > http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html  
 > https://blog.coderifleman.com/2015/08/16/react-and-immutable/  
-> https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Spread_operator  
+> https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Spread_operator
 ---
