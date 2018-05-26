@@ -389,9 +389,7 @@ describe('query util test', () => {
       q: 'best'
     })).toEqual('page=1&q=best')
   })
-})
 
-describe('query util test', () => {
   test('queryStringToObject should be return object from option qurey string', () => {
     expect(queryStringToObject('?page=1&q=best')).toEqual({
       page: '1',
