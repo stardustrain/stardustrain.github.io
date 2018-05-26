@@ -178,7 +178,7 @@ const someFunction = (val: string, param: Array<string>): number => {
 
 flow는 react component에 적용할 수 있어서 더욱 매력적입니다. 특히 props나 state의 타입을 정확히 명시해 두면 `3대가 편할 수 있습니다`.
 
-```javascript
+```jsx
 // @flow
 
 import React, { Component } from 'react'
